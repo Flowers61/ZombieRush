@@ -15,7 +15,7 @@ C:/Users/flore/Documents/GitHub/ZombieRush/Zumbie Rush
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-50221
+52117
 Successfully changed project path to: C:/Users/flore/Documents/GitHub/ZombieRush/Zumbie Rush
 C:/Users/flore/Documents/GitHub/ZombieRush/Zumbie Rush
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/flore/Documents/GitHub/ZombieRush/Zumbie Rush
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 63.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 67.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,7 +63,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -71,45 +71,45 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/E
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.008667 seconds.
+Registered in 0.006182 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 54.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.600 seconds
+- Completed reload, in  0.532 seconds
 Domain Reload Profiling:
-	ReloadAssembly (601ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (532ms)
+		BeginReloadAssembly (66ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (394ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (357ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (98ms)
+			SetupTypeCache (88ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (224ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (209ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (53ms)
+				InitializePlatformSupportModulesInManaged (46ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
+				RefreshPlugins (54ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (78ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005768 seconds.
+Registered in 0.005573 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\flore\Documents\GitHub\ZombieRush\Zumbie Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\flore\Documents\GitHub\ZombieRush\Zumbie Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -118,46 +118,46 @@ Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.865 seconds
+- Completed reload, in  1.279 seconds
 Domain Reload Profiling:
-	ReloadAssembly (865ms)
-		BeginReloadAssembly (203ms)
+	ReloadAssembly (1280ms)
+		BeginReloadAssembly (208ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (130ms)
-		EndReloadAssembly (585ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (936ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (180ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (278ms)
+			SetupTypeCache (295ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (441ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.5 KB). Loaded Objects now: 3839.
-Memory consumption went from 117.2 MB to 117.1 MB.
-Total: 3.046500 ms (FindLiveObjects: 0.215300 ms CreateObjectMapping: 0.156100 ms MarkObjects: 2.575600 ms  DeleteObjects: 0.098400 ms)
+Unloading 27 unused Assets / (111.4 KB). Loaded Objects now: 3841.
+Memory consumption went from 117.3 MB to 117.2 MB.
+Total: 4.599000 ms (FindLiveObjects: 0.321900 ms CreateObjectMapping: 0.240300 ms MarkObjects: 3.884300 ms  DeleteObjects: 0.151200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,67 +171,337 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2910.476915 seconds.
-  path: Assets/Fantasy Demon Caves/Textures/Fantasy_Demon_Cave_Atlas.tga
-  artifactKey: Guid(a1419a9de9de12647b78a6d249e01b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Demon Caves/Textures/Fantasy_Demon_Cave_Atlas.tga using Guid(a1419a9de9de12647b78a6d249e01b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88dfa8d0690d46a8ccb32bb00b6f2cc') in 0.230997 seconds 
+  Time since last request: 91664.191290 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/floor_02_decal.fbx
+  artifactKey: Guid(9979ecc5797e6d743a95f040daac2a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/floor_02_decal.fbx using Guid(9979ecc5797e6d743a95f040daac2a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75be4e4d00893dc74fe2b8250901d101') in 0.427505 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Fantasy Demon Caves/Textures/Fantasy_Demon_Cave_V3_Atlas_Alpha.tga
-  artifactKey: Guid(38b97d8a1cf63184ab8e6632f9e4c018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Demon Caves/Textures/Fantasy_Demon_Cave_V3_Atlas_Alpha.tga using Guid(38b97d8a1cf63184ab8e6632f9e4c018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6a4cfb2b33b5f2a1f0479454827577') in 0.083180 seconds 
+  Time since last request: 0.185142 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/grass_04.fbx
+  artifactKey: Guid(77f8714c3adefd7469a543b0498e6807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/grass_04.fbx using Guid(77f8714c3adefd7469a543b0498e6807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133006ef7d89814e66d12d0d128538f2') in 0.162278 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.247362 seconds.
-  path: Assets/Fantasy Demon Caves/FBX/Bone_03.fbx
-  artifactKey: Guid(48106d0582ddda84b8856f7d50e102a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Demon Caves/FBX/Bone_03.fbx using Guid(48106d0582ddda84b8856f7d50e102a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc77a2f3df47c0e5df1db9a9fad90bf') in 0.172375 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/Lava_04_decal.fbx
+  artifactKey: Guid(cac9a94432cfaa04890b7a584229b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/Lava_04_decal.fbx using Guid(cac9a94432cfaa04890b7a584229b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22313d6ceb1e1c504398dc9b6674a542') in 0.149921 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Fantasy Demon Caves/FBX/Bone_05.fbx
-  artifactKey: Guid(691e75e8145974d4ab4db93775c9c51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Demon Caves/FBX/Bone_05.fbx using Guid(691e75e8145974d4ab4db93775c9c51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86b02f50d9e0151bb87f03695c5e92c') in 0.040702 seconds 
+  Time since last request: 0.000061 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/Lava_03_decal.fbx
+  artifactKey: Guid(e337a72db1778e043b75eaa5f591d0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/Lava_03_decal.fbx using Guid(e337a72db1778e043b75eaa5f591d0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb32519598eb778f10e81b7ee612a99') in 0.126986 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Fantasy Demon Caves/FBX/Bone_09.fbx
-  artifactKey: Guid(4fdce13fcf2945945a9f4d0eec0bfcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Demon Caves/FBX/Bone_09.fbx using Guid(4fdce13fcf2945945a9f4d0eec0bfcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22557b249cb40003efcfec8a7471f5b') in 0.037984 seconds 
+  Time since last request: 0.536381 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/Lava_blue_07_decal.fbx
+  artifactKey: Guid(76a6dd071f053004bb8b27ebd52ae08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/Lava_blue_07_decal.fbx using Guid(76a6dd071f053004bb8b27ebd52ae08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ddeaec77228bb69ed550876d52e962') in 0.222957 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.105422 seconds.
-  path: Assets/Fantasy Demon Caves/FBX/Bone_14.fbx
-  artifactKey: Guid(6fff0d85b6961a349939f4d412c63c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Demon Caves/FBX/Bone_14.fbx using Guid(6fff0d85b6961a349939f4d412c63c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e05d43d52c0bff1b3c6857b6bb3252') in 0.027536 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/module_end_c.fbx
+  artifactKey: Guid(f61096a1444ade044bcec24da944612b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/module_end_c.fbx using Guid(f61096a1444ade044bcec24da944612b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba54a53062affc9dfffbc5a44c7c78f5') in 0.144408 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.070409 seconds.
-  path: Assets/Fantasy Demon Caves/FBX/Exit.fbx
-  artifactKey: Guid(ac4ed8f7d314cef41986e6c30275249e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Demon Caves/FBX/Exit.fbx using Guid(ac4ed8f7d314cef41986e6c30275249e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420d9864d8f2c93c132c7aa895113e2e') in 0.030866 seconds 
+  Time since last request: 0.000106 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/module_corner_convex_d.fbx
+  artifactKey: Guid(0e1b89fcd2bb28c43b8881def1fa16dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/module_corner_convex_d.fbx using Guid(0e1b89fcd2bb28c43b8881def1fa16dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbeed3e36989bd867605e95571d2fda5') in 0.158664 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.719089 seconds.
-  path: Assets/Fantasy Demon Caves/FBX/floor_03_decal.fbx
-  artifactKey: Guid(dbf2c62ec7c9ae441abb19dc4dbee57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Demon Caves/FBX/floor_03_decal.fbx using Guid(dbf2c62ec7c9ae441abb19dc4dbee57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7592daa49bb83a918a58683d6238e77') in 0.034600 seconds 
+  Time since last request: 0.595308 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/Portal.fbx
+  artifactKey: Guid(b2f796bd7ee47f546a0ffb6a10bc1ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/Portal.fbx using Guid(b2f796bd7ee47f546a0ffb6a10bc1ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10738ef18690c41e54df7064ccb360ee') in 0.223580 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 311.885784 seconds.
-  path: Assets/Fantasy Demon Caves/FBX/Entrance.fbx
-  artifactKey: Guid(13559a4b16fa2994c93060d897bbfdc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Demon Caves/FBX/Entrance.fbx using Guid(13559a4b16fa2994c93060d897bbfdc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf822870be1839ad839d4617fbf06e4') in 0.025780 seconds 
+  Time since last request: 0.042781 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/Rock03.fbx
+  artifactKey: Guid(642984723a283084797b42f0715d09a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/Rock03.fbx using Guid(642984723a283084797b42f0715d09a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68998b014c91f9a1f6ab719c2507b60d') in 0.107005 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.126731 seconds.
-  path: Assets/Fantasy Demon Caves/mats/Fantasy_Demon _Caves.mat
-  artifactKey: Guid(d7f3effa5301dd74188e1e1e75c27fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Demon Caves/mats/Fantasy_Demon _Caves.mat using Guid(d7f3effa5301dd74188e1e1e75c27fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e952a80d934e42952891dcbf24dadcb') in 0.025102 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/Rock03_lava.fbx
+  artifactKey: Guid(ad5216a2bbdd8c240bbf90bfb0723738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/Rock03_lava.fbx using Guid(ad5216a2bbdd8c240bbf90bfb0723738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4206cfa7dac579a93bdfed9df01c664a') in 0.105262 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 502.016916 seconds.
-  path: Assets/Fantasy Demon Caves/mats/Fantasy_Demon _Caves.mat
-  artifactKey: Guid(d7f3effa5301dd74188e1e1e75c27fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Demon Caves/mats/Fantasy_Demon _Caves.mat using Guid(d7f3effa5301dd74188e1e1e75c27fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df31173b45593c0b5e2e4ef4d1836102') in 0.046137 seconds 
+  Time since last request: 0.723936 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/rock_01_pillars_lava.fbx
+  artifactKey: Guid(e6b9c5738b7aeb94aa8bdecb0ff4e8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/rock_01_pillars_lava.fbx using Guid(e6b9c5738b7aeb94aa8bdecb0ff4e8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3e30016983cad97b71eeed35ee0853') in 0.183596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/rock_cliff_03.fbx
+  artifactKey: Guid(283eefde084e4ec4680e32b62739da1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/rock_cliff_03.fbx using Guid(283eefde084e4ec4680e32b62739da1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880d4f0473b6ddd400c224b59980a661') in 0.158503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/rock_cliff_01_lava.fbx
+  artifactKey: Guid(65816e372af05454086e02a07743ba9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/rock_cliff_01_lava.fbx using Guid(65816e372af05454086e02a07743ba9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5eca21378f781c0e26310efd6a519e0') in 0.110085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.307822 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/skull_04.fbx
+  artifactKey: Guid(f8367bf1d3f55244cb10af5a3a36dc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/skull_04.fbx using Guid(f8367bf1d3f55244cb10af5a3a36dc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2d6b4eec849ae262f88cc8aee6c529') in 0.226916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.886663 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/spokebone_02.fbx
+  artifactKey: Guid(a97ed233698bb7945b600d0311fbf114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/spokebone_02.fbx using Guid(a97ed233698bb7945b600d0311fbf114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73c5b4363dadce8f015bc50c3aa92c0') in 0.160478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.557711 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/step_stone_03.fbx
+  artifactKey: Guid(92e25210e7c80c7489a2c186972c556c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/step_stone_03.fbx using Guid(92e25210e7c80c7489a2c186972c556c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65649f7da0e19c39403f098499b60749') in 0.235870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.542019 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/step_stone_06_lava.fbx
+  artifactKey: Guid(8ba756cbb4bc5534982f7febb6a85ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/step_stone_06_lava.fbx using Guid(8ba756cbb4bc5534982f7febb6a85ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac453091399ad439ccf7b3c663c6f52') in 0.189693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.610720 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/stone_02_spikes.fbx
+  artifactKey: Guid(07c29537632d30941be30f6fdb17ef54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/stone_02_spikes.fbx using Guid(07c29537632d30941be30f6fdb17ef54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3762e578444a66bf2f58103f017fbee7') in 0.201805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.671466 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/stone_05_spikes_lava.fbx
+  artifactKey: Guid(6d37f832105354747867d9fa39b02340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/stone_05_spikes_lava.fbx using Guid(6d37f832105354747867d9fa39b02340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9693cde22f7d196511fdcbe9d2480015') in 0.171944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.441206 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/stone_arch_half_01_lava_red.fbx
+  artifactKey: Guid(1c85265146a5545479dbf560354775a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/stone_arch_half_01_lava_red.fbx using Guid(1c85265146a5545479dbf560354775a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce656afd0e2ca26d82660e8dca771b8a') in 0.163084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.205279 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/stone_arch_lava_red.fbx
+  artifactKey: Guid(1b8603b302b20df418343280ddf9aa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/stone_arch_lava_red.fbx using Guid(1b8603b302b20df418343280ddf9aa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e404e875effa43d1a4914bd86a2ef7f') in 0.172813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.124770 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/wall_corner_convex_a.fbx
+  artifactKey: Guid(6403dc45d13ca654da39932531d2804f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/wall_corner_convex_a.fbx using Guid(6403dc45d13ca654da39932531d2804f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7413cdb3d63fab859b442f9bae8ff3') in 0.165819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.773263 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/wall_tile_b_02.fbx
+  artifactKey: Guid(d503819f971c76c47a5593dc2e7319b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/wall_tile_b_02.fbx using Guid(d503819f971c76c47a5593dc2e7319b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03797043516ba29966c6c6f8585b8b4') in 0.189015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/wall_tile_c_01.fbx
+  artifactKey: Guid(ded11455819cae94d9708aab65f0de03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/wall_tile_c_01.fbx using Guid(ded11455819cae94d9708aab65f0de03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fad88d36d62bdaefe85e4d890598ed') in 0.083826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.004442 seconds.
+  path: Assets/Fantasy Demon Caves/FBX/wall_tile_d_02.fbx
+  artifactKey: Guid(a4f8a8ada4999db46829f17bded63155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Demon Caves/FBX/wall_tile_d_02.fbx using Guid(a4f8a8ada4999db46829f17bded63155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d40630dc89bce45b84c7d54f87e9b4c') in 0.093556 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003405 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\flore\Documents\GitHub\ZombieRush\Zumbie Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\flore\Documents\GitHub\ZombieRush\Zumbie Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.707 seconds
+Domain Reload Profiling:
+	ReloadAssembly (707ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (529ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.5 KB). Loaded Objects now: 3888.
+Memory consumption went from 122.0 MB to 121.9 MB.
+Total: 2.400500 ms (FindLiveObjects: 0.158000 ms CreateObjectMapping: 0.072200 ms MarkObjects: 2.112100 ms  DeleteObjects: 0.057600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 834.083384 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(ee91f2d10c78ed344a61cd281d8f5e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(ee91f2d10c78ed344a61cd281d8f5e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d0532b5474d95b88b1942d3b91d26d') in 0.276182 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003564 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\flore\Documents\GitHub\ZombieRush\Zumbie Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\flore\Documents\GitHub\ZombieRush\Zumbie Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Domain Reload Profiling:
+	ReloadAssembly (664ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (505ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.4 KB). Loaded Objects now: 3891.
+Memory consumption went from 122.0 MB to 122.0 MB.
+Total: 2.693200 ms (FindLiveObjects: 0.173500 ms CreateObjectMapping: 0.074400 ms MarkObjects: 2.363700 ms  DeleteObjects: 0.080900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003511 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\flore\Documents\GitHub\ZombieRush\Zumbie Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\flore\Documents\GitHub\ZombieRush\Zumbie Rush\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.690 seconds
+Domain Reload Profiling:
+	ReloadAssembly (691ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (527ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (232ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3894.
+Memory consumption went from 122.0 MB to 122.0 MB.
+Total: 2.854800 ms (FindLiveObjects: 0.170200 ms CreateObjectMapping: 0.082200 ms MarkObjects: 2.523100 ms  DeleteObjects: 0.077600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
