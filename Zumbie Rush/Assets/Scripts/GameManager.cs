@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance = null;
 
     [SerializeField] private GameObject mainMenu;
+    [SerializeField] private GameObject gameOverMenu;
 
     private bool playerActive = false;
     private bool gameOver = false;
@@ -42,6 +43,7 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         Assert.IsNotNull(mainMenu);
+        Assert.IsNotNull(gameOverMenu);
     }
     // Start is called before the first frame update
     void Start()
@@ -57,6 +59,7 @@ public class GameManager : MonoBehaviour
 
     public void PlayerCollided()
     {
+        gameOverMenu.SetActive(true);
         gameOver = true;
     }
 
