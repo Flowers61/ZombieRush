@@ -23,8 +23,11 @@ public class Rock : Object
         {
             base.Update();
         }
-        
-        
+
+        if (GameManager.instance.GameReset && !GameManager.instance.PlayerActive)
+        {
+            transform.position = startPosY;
+        }
     }
 
     IEnumerator Move(Vector3 target)

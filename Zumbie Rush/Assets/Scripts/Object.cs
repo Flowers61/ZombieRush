@@ -10,10 +10,12 @@ public class Object : MonoBehaviour
     [SerializeField] private float resetPos = 0f;
     [SerializeField] private float startPos = -105f;
 
+    private Vector3 startingPos;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        startingPos = transform.position;
     }
 
     // Update is called once per frame
@@ -29,6 +31,10 @@ public class Object : MonoBehaviour
                 transform.position = newPos;
             }
         }
-       
+
+        if (GameManager.instance.GameReset && !GameManager.instance.PlayerActive)
+        {
+            transform.position = startingPos;
+        }
     }
 }

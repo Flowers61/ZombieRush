@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     private Rigidbody rigidBody;
     private AudioSource audioSource;
     private bool jump = false;
+    private Vector3 startingPos;
 
     private void Awake()
     {
@@ -26,6 +27,7 @@ public class Player : MonoBehaviour
         anim = GetComponent<Animator>();
         rigidBody = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
+        startingPos = transform.position;
     }
 
     // Update is called once per frame
@@ -41,6 +43,13 @@ public class Player : MonoBehaviour
                 rigidBody.useGravity = true;
                 jump = true;
             }
+        }
+
+        if(GameManager.instance.GameReset && !GameManager.instance.PlayerActive)
+        {
+            transform.position = startingPos;
+            this.Awake();
+            rigidBody.detectCollisions = true;
         }
     
     }

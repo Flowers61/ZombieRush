@@ -10,10 +10,15 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject mainMenu;
     [SerializeField] private GameObject gameOverMenu;
+    
 
     private bool playerActive = false;
     private bool gameOver = false;
     private bool gameStarted = false;
+    private bool gameReset = false;
+
+    public bool GameReset
+    { get { return gameReset; } }
 
     public bool GameStarted
     {
@@ -66,11 +71,21 @@ public class GameManager : MonoBehaviour
     public void PlayerStartedGame()
     {
         playerActive = true;
+        gameReset = false;
     }
 
     public void EnterGame()
     {
         mainMenu.SetActive(false);
         gameStarted = true;
+    }
+
+    public void Restart()
+    {
+        gameReset = true;
+        gameOver = false;
+        playerActive = false;
+        gameOverMenu.SetActive(false);
+
     }
 }
