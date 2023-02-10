@@ -5,14 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - obstacle
+  - layerToIgnore
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ceiling
   - Water
   - UI
-  - 
+  - Obstacle
   - 
   - 
   - 

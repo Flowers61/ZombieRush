@@ -48,7 +48,10 @@ public class Rock : Object
 
             StartCoroutine(Move(newTarget));
         }
-    
 
-   
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+    }
+
 }
